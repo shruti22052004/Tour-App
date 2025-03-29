@@ -1,0 +1,10 @@
+{
+  "homepage": " https://github.com/shruti22052004/Tour-App.git",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts":{
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  }
+}
